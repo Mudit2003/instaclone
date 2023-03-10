@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "858209307894",
+    "project_id": "instaclone-kuchi",
+    "storage_bucket": "instaclone-kuchi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:858209307894:android:81ad461a0d691904cb70d7",
+        "android_client_info": {
+          "package_name": "com.mudit.instaclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "858209307894-fb3oid2dq04i2t8f254n38f5neddiohe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdODwZqPH9eutvjSOKW_8vVrIXhbfvObM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "858209307894-fb3oid2dq04i2t8f254n38f5neddiohe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

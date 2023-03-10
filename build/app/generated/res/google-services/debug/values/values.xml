@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">858209307894-fb3oid2dq04i2t8f254n38f5neddiohe.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">858209307894</string>
+    <string name="google_api_key" translatable="false">AIzaSyCdODwZqPH9eutvjSOKW_8vVrIXhbfvObM</string>
+    <string name="google_app_id" translatable="false">1:858209307894:android:81ad461a0d691904cb70d7</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCdODwZqPH9eutvjSOKW_8vVrIXhbfvObM</string>
+    <string name="google_storage_bucket" translatable="false">instaclone-kuchi.appspot.com</string>
+    <string name="project_id" translatable="false">instaclone-kuchi</string>
+</resources>

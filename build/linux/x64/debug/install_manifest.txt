@@ -1,0 +1,12 @@
+/home/mudit/Desktop/instaclone/build/linux/x64/debug/bundle/instaclone
+/home/mudit/Desktop/instaclone/build/linux/x64/debug/bundle/data/icudtl.dat
+/home/mudit/Desktop/instaclone/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so
+/home/mudit/Desktop/instaclone/build/linux/x64/debug/bundle/data/flutter_assets/kernel_blob.bin
+/home/mudit/Desktop/instaclone/build/linux/x64/debug/bundle/data/flutter_assets/version.json
+/home/mudit/Desktop/instaclone/build/linux/x64/debug/bundle/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+/home/mudit/Desktop/instaclone/build/linux/x64/debug/bundle/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+/home/mudit/Desktop/instaclone/build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json
+/home/mudit/Desktop/instaclone/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES
+/home/mudit/Desktop/instaclone/build/linux/x64/debug/bundle/data/flutter_assets/shaders/ink_sparkle.frag
+/home/mudit/Desktop/instaclone/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.json
+/home/mudit/Desktop/instaclone/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES.Z
