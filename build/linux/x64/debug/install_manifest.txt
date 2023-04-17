@@ -10,3 +10,4 @@
 /home/mudit/Desktop/instaclone/build/linux/x64/debug/bundle/data/flutter_assets/shaders/ink_sparkle.frag
 /home/mudit/Desktop/instaclone/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.json
 /home/mudit/Desktop/instaclone/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES.Z
+/home/mudit/Desktop/instaclone/build/linux/x64/debug/bundle/data/flutter_assets/assets/ic_instagram.svg

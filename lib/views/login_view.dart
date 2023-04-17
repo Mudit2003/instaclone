@@ -76,7 +76,7 @@ class _LoginViewState extends State<LoginView> {
                 ),
                 TextButton(
                   style: TextButton.styleFrom(
-                    backgroundColor: Colors.blue.shade900,
+                    backgroundColor: blueColor,
                     shape: const RoundedRectangleBorder(
                       borderRadius: BorderRadius.all(
                         Radius.circular(8),
@@ -111,7 +111,7 @@ class _LoginViewState extends State<LoginView> {
                   child: const Text(
                     "Forgotten Password?",
                     style: TextStyle(
-                      color: Colors.white54,
+                      color: Colors.white,
                     ),
                   ),
                 ),
@@ -128,7 +128,7 @@ class _LoginViewState extends State<LoginView> {
                   style: TextButton.styleFrom(
                     minimumSize: const Size.fromHeight(40),
                     side: const BorderSide(
-                      color: Colors.white70,
+                      color: Colors.white,
                       width: 1.0,
                     ),
                     shape: const ContinuousRectangleBorder(),
@@ -136,7 +136,7 @@ class _LoginViewState extends State<LoginView> {
                   child: const Text(
                     "Create New Account",
                     style: TextStyle(
-                      color: Colors.white70,
+                      color: Colors.white,
                     ),
                   ),
                 ),
