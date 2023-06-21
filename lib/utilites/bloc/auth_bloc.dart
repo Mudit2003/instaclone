@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:bloc/bloc.dart';
 import 'package:instaclone/services/auth/auth_provider.dart';
 import 'package:instaclone/utilites/bloc/auth_event.dart';
@@ -103,39 +105,49 @@ class AuthBloc extends Bloc<AuthEvent, AuthState> {
       },
     );
 
-    on<AuthEventRegister>(
-      (event, emit) async {
-        emit(
-          const AuthStateRegistering(
-            isLoading: true,
-            exception: null,
-          ),
-        );
-        final email = event.email;
-        final password = event.password;
+    on<AuthEventRegister>((event, emit) {
+      log("register");
+    });
 
-        try {
-          await provider.register(
-            email: email,
-            password: password,
-          );
-          // there should be an extra field of using username and creating a name and that actually is about creating a user with a particular user id and assigning certain data like name and email to him 
-          await provider.sendEmailVerification();
-          emit(
-            const AuthStateNeedsVerification(
-              isLoading: true,
-            ),
-          );
-        } on Exception catch (e) {
-          emit(
-            AuthStateRegistering(
-              isLoading: false,
-              exception: e,
-            ),
-          );
-        }
-      },
-    );
+    // on<AuthEventRegister>(
+    //   (event, emit) async {
+    //     // emit(
+    //     //   const AuthStateRegistering(
+    //     //     isLoading: true,
+    //     //     exception: null,
+    //     //   ),
+    //     // );
+    //     log("this is the bloc");
+    //     // final email = event.email;
+    //     // final password = event.password;
+
+    //     // try {
+    //     //   await provider.register(
+    //     //     email: email,
+    //     //     password: password,
+    //     //   );
+    //     //   // there should be an extra field of using username and creating a name and that actually is about creating a user with a particular user id and assigning certain data like name and email to him
+    //     //   log('create a profile');
+    //     //   emit(
+    //     //     const AuthStateToCreateProfile(isLoading: true),
+    //     //   );
+    //     //   await provider.sendEmailVerification();
+
+    //     // emit(
+    //     //   const AuthStateNeedsVerification(
+    //     //     isLoading: true,
+    //     //   ),
+    //     // );
+    //     // } on Exception catch (e) {
+    //     //   emit(
+    //     //     AuthStateRegistering(
+    //     //       isLoading: false,
+    //     //       exception: e,
+    //     //     ),
+    //     //   );
+    //     // }
+    //   },
+    // );
     on<AuthEventSendEmailVerification>(
       (event, emit) async {
         await provider.sendEmailVerification();

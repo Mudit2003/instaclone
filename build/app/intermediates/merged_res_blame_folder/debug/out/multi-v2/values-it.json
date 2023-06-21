@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.mudit.instaclone.app-mergeDebugResources-20:/values-it/values-it.xml",
+            "outputFile": "com.mudit.instaclone.app-mergeDebugResources-14:/values-it/values-it.xml",
             "map": [
                 {
                     "source": "/home/mudit/.gradle/caches/transforms-3/c7232b6ce4e188bed1222fb6e790465b/transformed/jetified-play-services-base-18.0.1/res/values-it/values.xml",
@@ -18,23 +18,6 @@
                         "startOffsets": "55,160,311,436,544,702,830,950,1190,1347,1454,1608,1735,1891,2072,2139,2200",
                         "endColumns": "104,150,124,107,157,127,119,103,156,106,153,126,155,180,66,60,76",
                         "endOffsets": "155,306,431,539,697,825,945,1049,1342,1449,1603,1730,1886,2067,2134,2195,2272"
-                    }
-                },
-                {
-                    "source": "/home/mudit/.gradle/caches/transforms-3/9578ebd2933996235787291919ab3732/transformed/core-1.8.0/res/values-it/values-it.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "24",
-                        "startColumns": "4",
-                        "startOffsets": "2688",
-                        "endColumns": "100",
-                        "endOffsets": "2784"
                     }
                 },
                 {
@@ -69,6 +52,23 @@
                         "startOffsets": "2277,2377,2475,2585",
                         "endColumns": "99,97,109,102",
                         "endOffsets": "2372,2470,2580,2683"
+                    }
+                },
+                {
+                    "source": "/home/mudit/.gradle/caches/transforms-3/ae42e6c01585f28a5adeac7499fca147/transformed/core-1.6.0/res/values-it/values-it.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "24",
+                        "startColumns": "4",
+                        "startOffsets": "2688",
+                        "endColumns": "100",
+                        "endOffsets": "2784"
                     }
                 }
             ]

@@ -10,7 +10,7 @@ class Debouncer {
     ),
   });
 
-  call(void Function() action) {
+  void call(void Function() action) {
     _timer?.cancel();
     _timer = Timer(
       delay,
@@ -18,7 +18,12 @@ class Debouncer {
     );
   }
 
-  dispose() {
+  void cancel() {
+    _timer?.cancel();
+    _timer = null;
+  }
+
+  void dispose() {
     _timer?.cancel();
   }
 }

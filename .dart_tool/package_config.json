@@ -68,20 +68,8 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "cross_file",
-      "rootUri": "file:///home/mudit/.pub-cache/hosted/pub.dev/cross_file-0.3.3+4",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
       "name": "cupertino_icons",
       "rootUri": "file:///home/mudit/.pub-cache/hosted/pub.dev/cupertino_icons-1.0.5",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "email_validator",
-      "rootUri": "file:///home/mudit/.pub-cache/hosted/pub.dev/email_validator-2.1.17",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -170,12 +158,6 @@
       "languageVersion": "2.17"
     },
     {
-      "name": "flutter_plugin_android_lifecycle",
-      "rootUri": "file:///home/mudit/.pub-cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.9",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
       "name": "flutter_svg",
       "rootUri": "file:///home/mudit/.pub-cache/hosted/pub.dev/flutter_svg-2.0.2",
       "packageUri": "lib/",
@@ -202,36 +184,6 @@
     {
       "name": "http_parser",
       "rootUri": "file:///home/mudit/.pub-cache/hosted/pub.dev/http_parser-4.0.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "image_picker",
-      "rootUri": "file:///home/mudit/.pub-cache/hosted/pub.dev/image_picker-0.8.6+4",
-      "packageUri": "lib/",
-      "languageVersion": "2.14"
-    },
-    {
-      "name": "image_picker_android",
-      "rootUri": "file:///home/mudit/.pub-cache/hosted/pub.dev/image_picker_android-0.8.5+10",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "image_picker_for_web",
-      "rootUri": "file:///home/mudit/.pub-cache/hosted/pub.dev/image_picker_for_web-2.1.12",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "image_picker_ios",
-      "rootUri": "file:///home/mudit/.pub-cache/hosted/pub.dev/image_picker_ios-0.8.7+1",
-      "packageUri": "lib/",
-      "languageVersion": "2.18"
-    },
-    {
-      "name": "image_picker_platform_interface",
-      "rootUri": "file:///home/mudit/.pub-cache/hosted/pub.dev/image_picker_platform_interface-2.6.3",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -392,7 +344,7 @@
       "languageVersion": "2.19"
     }
   ],
-  "generated": "2023-03-09T06:49:20.994346Z",
+  "generated": "2023-06-20T11:55:11.448540Z",
   "generator": "pub",
   "generatorVersion": "2.19.2"
 }

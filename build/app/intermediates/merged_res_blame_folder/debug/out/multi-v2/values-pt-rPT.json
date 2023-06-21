@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.mudit.instaclone.app-mergeDebugResources-20:/values-pt-rPT/values-pt-rPT.xml",
+            "outputFile": "com.mudit.instaclone.app-mergeDebugResources-14:/values-pt-rPT/values-pt-rPT.xml",
             "map": [
                 {
-                    "source": "/home/mudit/.gradle/caches/transforms-3/9578ebd2933996235787291919ab3732/transformed/core-1.8.0/res/values-pt-rPT/values-pt-rPT.xml",
+                    "source": "/home/mudit/.gradle/caches/transforms-3/ae42e6c01585f28a5adeac7499fca147/transformed/core-1.6.0/res/values-pt-rPT/values-pt-rPT.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.mudit.instaclone.app-mergeDebugResources-20:/values-night-v8/values-night-v8.xml",
+            "outputFile": "com.mudit.instaclone.app-mergeDebugResources-14:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/home/mudit/Desktop/instaclone/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/home/mudit/Desktop/Code/instaclone/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

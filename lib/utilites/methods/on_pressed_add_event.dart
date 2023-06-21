@@ -5,7 +5,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:instaclone/utilites/bloc/auth_bloc.dart';
 import 'package:instaclone/utilites/bloc/auth_event.dart';
 
-Function() onPressed({
+void Function() onPressed({
   required AuthEvent event,
   required BuildContext context,
 }) {

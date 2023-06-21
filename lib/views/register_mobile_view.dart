@@ -1,4 +1,3 @@
-import 'package:email_validator/email_validator.dart';
 import 'package:flutter/material.dart';
 
 class RegisterView extends StatefulWidget {
@@ -10,7 +9,7 @@ class RegisterView extends StatefulWidget {
 
 class _RegisterViewState extends State<RegisterView> {
   late final TextEditingController _controller;
-@override
+  @override
   void initState() {
     _controller = TextEditingController();
     super.initState();

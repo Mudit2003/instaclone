@@ -42,6 +42,10 @@ class AuthStateNeedsVerification extends AuthState {
   });
 }
 
+class AuthStateToCreateProfile extends AuthState {
+  const AuthStateToCreateProfile({required super.isLoading});
+}
+
 class AuthStateCreateProfile extends AuthState {
   final String userName;
   final String name;

@@ -31,16 +31,21 @@ class AuthEventToRegister extends AuthEvent {
   const AuthEventToRegister();
 }
 
+class AuthEventCreateProfile extends AuthEvent {
+  final String name;
+  final String username;
+  const AuthEventCreateProfile({
+    required this.name,
+    required this.username,
+  });
+}
+
 class AuthEventLogOut extends AuthEvent {
   const AuthEventLogOut();
 }
 
 class AuthEventSendEmailVerification extends AuthEvent {
   const AuthEventSendEmailVerification();
-}
-
-class AuthEventCreateProfile extends AuthEvent {
-  const AuthEventCreateProfile();
 }
 
 class AuthEventForgotPassword extends AuthEvent {
