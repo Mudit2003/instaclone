@@ -8,6 +8,7 @@ import 'package:instaclone/utilites/bloc/auth_state.dart';
 import 'package:instaclone/views/create_profile_view.dart';
 import 'package:instaclone/views/login_view.dart';
 import 'package:instaclone/views/register_view.dart';
+import 'package:instaclone/views/verification_view.dart';
 
 class MobileLayout extends StatefulWidget {
   const MobileLayout({super.key});
@@ -32,7 +33,7 @@ class _MobileLayoutState extends State<MobileLayout> {
           if (state is AuthStateLoggedIn) {
             return Container();
           } else if (state is AuthStateNeedsVerification) {
-            return const Placeholder();
+            return const VerificationView();
           } else if (state is AuthStateLoggedOut) {
             return const LoginView();
           } else if (state is AuthStateForgotPassword) {

@@ -1,4 +1,4 @@
-import 'dart:developer';
+import 'dart:developer' as devtools show log;
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -9,7 +9,7 @@ void Function() onPressed({
   required AuthEvent event,
   required BuildContext context,
 }) {
-  log("Onpressed called");
+  devtools.log("Onpressed called");
   return () {
     context.read<AuthBloc>().add(event);
   };

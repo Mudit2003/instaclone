@@ -1,6 +1,8 @@
 import 'dart:developer';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:instaclone/extensions/email_validator.dart';
+import 'package:instaclone/utilites/bloc/auth_bloc.dart';
 import 'package:instaclone/utilites/bloc/auth_event.dart';
 import 'package:instaclone/utilites/elements/email_field.dart';
 import 'package:instaclone/utilites/elements/password_field.dart';
@@ -67,7 +69,7 @@ class _RegisterViewState extends State<RegisterView> {
   Widget build(BuildContext context) {
     log("state change");
     return Scaffold(
-      resizeToAvoidBottomInset: false,
+      resizeToAvoidBottomInset: true,
       backgroundColor: backgroundColor,
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -132,13 +134,16 @@ class _RegisterViewState extends State<RegisterView> {
             ValidationButtons(
               buttonLabel: "Next",
               buttonLogic: validationStatus
-                  ? onPressed(
-                      event: AuthEventRegister(
-                        email: _emailFieldController.text,
-                        password: _password.text,
-                      ),
-                      context: context,
-                    )
+                  ? () {
+                      if (_confirmPassword.text == _password.text) {
+                        context.read<AuthBloc>().add(AuthEventRegister(
+                              email: _emailFieldController.text,
+                              password: _password.text,
+                            ));
+                      } else {
+                        log("Passwords do not match");
+                      }
+                    }
                   : null,
             ),
             const Spacer(

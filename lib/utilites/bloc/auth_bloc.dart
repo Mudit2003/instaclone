@@ -1,6 +1,5 @@
-import 'dart:developer';
-
 import 'package:bloc/bloc.dart';
+// import 'package:instaclone/services/auth/auth_exceptions.dart';
 import 'package:instaclone/services/auth/auth_provider.dart';
 import 'package:instaclone/utilites/bloc/auth_event.dart';
 import 'package:instaclone/utilites/bloc/auth_state.dart';
@@ -105,8 +104,26 @@ class AuthBloc extends Bloc<AuthEvent, AuthState> {
       },
     );
 
-    on<AuthEventRegister>((event, emit) {
-      log("register");
+    on<AuthEventRegister>((event, emit) async {
+      emit(const AuthStateRegistering(
+        isLoading: true,
+        exception: null,
+      ));
+      final email = event.email;
+      final password = event.password;
+      try {
+        await provider.register(
+          email: email,
+          password: password,
+        );
+        await provider.sendEmailVerification();
+        emit(const AuthStateNeedsVerification(isLoading: true));
+      } on Exception catch (e) {
+        emit(AuthStateRegistering(
+          isLoading: false,
+          exception: e,
+        ));
+      }
     });
 
     // on<AuthEventRegister>(
@@ -198,6 +215,15 @@ class AuthBloc extends Bloc<AuthEvent, AuthState> {
               hasSentEmail: didSendEmail,
               isLoading: false),
         );
+      },
+    );
+    on<AuthEventLogOut>(
+      (event, emit) {
+        provider.logOut();
+        emit(const AuthStateLoggedOut(
+          exception: null,
+          isLoading: false,
+        ));
       },
     );
   }
