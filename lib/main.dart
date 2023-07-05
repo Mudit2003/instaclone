@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:instaclone/layouts/mobile_layout.dart';
-import 'package:instaclone/services/auth/firebase_auth_provider.dart';
-import 'package:instaclone/utilites/bloc/auth_bloc.dart';
+import 'package:instaclone/pages/layouts/mobile_layout.dart';
+import 'package:instaclone/models/auth/firebase_auth_provider.dart';
+import 'package:instaclone/models/bloc/auth_bloc/auth_bloc.dart';
 import 'package:instaclone/utilites/global/colors.dart';
 import 'package:instaclone/utilites/global/routes.dart';
-import 'package:instaclone/views/create_profile_view.dart';
+import 'package:instaclone/pages/views/create_profile_view.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();

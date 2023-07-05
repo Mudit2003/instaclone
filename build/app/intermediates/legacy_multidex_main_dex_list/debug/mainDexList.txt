@@ -163,6 +163,8 @@ com/google/android/gms/internal/common/zzs.class
 com/google/android/gms/internal/common/zzx.class
 com/google/android/gms/internal/common/zzy.class
 com/google/android/gms/internal/common/zzz.class
+com/google/android/play/core/integrity/model/IntegrityErrorCode.class
+com/google/android/recaptcha/internal/zzcs.class
 com/google/common/annotations/Beta.class
 com/google/common/annotations/GwtCompatible.class
 com/google/common/annotations/GwtIncompatible.class
@@ -232,6 +234,7 @@ com/google/firebase/annotations/concurrent/Lightweight.class
 com/google/firebase/annotations/concurrent/UiThread.class
 com/google/firebase/auth/ActionCodeResult$ActionDataKey.class
 com/google/firebase/auth/ActionCodeResult$Operation.class
+com/google/firebase/firestore/AggregateQuerySnapshot.class
 com/google/firebase/firestore/DocumentId.class
 com/google/firebase/firestore/Exclude.class
 com/google/firebase/firestore/IgnoreExtraProperties.class
@@ -443,7 +446,11 @@ kotlinx/coroutines/CompletableDeferred$DefaultImpls.class
 kotlinx/coroutines/CompletableJob$DefaultImpls.class
 kotlinx/coroutines/CoroutineDispatcher.class
 kotlinx/coroutines/Deferred$DefaultImpls.class
+kotlinx/coroutines/Delay$DefaultImpls.class
+kotlinx/coroutines/Delay.class
 kotlinx/coroutines/DelicateCoroutinesApi.class
+kotlinx/coroutines/EventLoopImplBase.class
+kotlinx/coroutines/ExecutorCoroutineDispatcherImpl.class
 kotlinx/coroutines/ExperimentalCoroutinesApi.class
 kotlinx/coroutines/FlowPreview.class
 kotlinx/coroutines/InternalCoroutinesApi.class
@@ -457,6 +464,7 @@ kotlinx/coroutines/ObsoleteCoroutinesApi.class
 kotlinx/coroutines/ParentJob$DefaultImpls.class
 kotlinx/coroutines/ParentJob.class
 kotlinx/coroutines/SupervisorKt.class
+kotlinx/coroutines/android/HandlerDispatcher.class
 kotlinx/coroutines/android/HandlerDispatcherKt.class
 kotlinx/coroutines/channels/AbstractChannel$Itr.class
 kotlinx/coroutines/channels/AbstractChannel.class
@@ -481,13 +489,16 @@ kotlinx/coroutines/channels/ReceiveChannel.class
 kotlinx/coroutines/channels/SendChannel$DefaultImpls.class
 kotlinx/coroutines/channels/SendChannel.class
 kotlinx/coroutines/flow/FlowKt.class
-kotlinx/coroutines/flow/FlowKt__BuildersKt.class
 kotlinx/coroutines/flow/FlowKt__ChannelsKt.class
+kotlinx/coroutines/flow/FlowKt__CollectKt.class
 kotlinx/coroutines/flow/FlowKt__ContextKt.class
-kotlinx/coroutines/flow/FlowKt__ErrorsKt.class
 kotlinx/coroutines/flow/FlowKt__MigrationKt.class
 kotlinx/coroutines/flow/LintKt.class
+kotlinx/coroutines/internal/LimitedDispatcher.class
 kotlinx/coroutines/scheduling/ExperimentalCoroutineDispatcher.class
+kotlinx/coroutines/sync/Mutex$DefaultImpls.class
+kotlinx/coroutines/tasks/TasksKt$asDeferredImpl$3.class
+kotlinx/coroutines/test/TestCoroutineContext$Dispatcher.class
 kotlinx/coroutines/test/TestCoroutineContext.class
 kotlinx/coroutines/test/TestCoroutineContextKt.class
 org/checkerframework/checker/builder/qual/CalledMethods.class
